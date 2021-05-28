@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book_card.html</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+        }
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background: #ccc;
+        }
+        .card {
+            width: 400px;
+            height: 793px;
+            background-color: #fff5fd;
+            box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+            display: inline-block;
+            margin-right: 40px;            
+            box-sizing: border-box;
+            border-radius: 0 0 10px 10px;
+        }
+        .card:last-child {
+            margin-right: 0;
+        }
+        .link_btn {
+            width: 350x;
+            display: block;
+            border: 1px solid #022E57;            
+            text-align: center;
+            text-decoration: none;
+            border-radius: 30px;
+            background: #022E57;
+            color: #fff5fd;
+            margin-top: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin: 0;
+        }
+        .link_btn:hover {
+            background: #fff5fd;
+            color: #022E57;
+        }
+        .card > .info {
+            padding-top: 7px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .card h4 {
+            font-size: 24px;
+            font-weight: 500px;
+            margin-bottom: 16px;
+            line-height: 35px;
+            text-align: center;
+        }
+        .solid {
+            background: #FF96AD;
+            width: 400px;
+            height: 20px;
+            margin-top: -5px;
+        }
+        .name {
+            margin-bottom: 10px;
+            background-color: rgba(0,90,141,0.2);
+            text-align: center;
+        }
+        .section {
+            width: 1288px;
+            height: 793px;
+            /*border: 1px solid red;*/
+            position: absolute;
+            left: 50%;
+            margin-left: calc(-1288px / 2);
+            top: 60%;
+            margin-top: calc(-973px / 2);
+        }
+        .card p {
+            font-size: 15px;
+            font-weight: 400;
+            margin-bottom: 20px;
+            line-height: 23px;
+            text-align: center;
+        }
+        .image {
+            margin: 0px;            
+        }
+    </style>
+</head>
+<div>
+    <div class="section">
+    <div class="card">
+        <div class="solid"></div>
+        <img src="./book1.jpg" alt="작은별이지만빛나고있어" class="image">
+        <div class="solid"></div>
+        <div class="info">
+            <h4>작은 별이지만 빛나고 있어</h4>
+            <p class="name">시/에세이, 소윤</p>
+            <p>“존재만으로도 충분한 너에게 해주고 싶은 말” <br>
+                때로는 당당하게 때로는 덤덤하게 언제나 <br>
+                내가 최우선일 것을 전하는 소윤 작가의 에세이. <br>
+                작아도 괜찮다. 별은 작을수록 더 오래 남아 반짝이니까. <br>
+                밤하늘 같은 일상에서 당신이라는 별도 이미 빛나고 있다.</p>
+                <a href="https://book.naver.com/bookdb/book_detail.nhn?bid=18828218" class="link_btn">책정보 보기</a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="solid"></div>
+        <img src="./book2.jpg" alt="미드나잇 라이브러리" class="image">
+        <div class="solid"></div>
+        <div class="info">
+            <h4>미드나잇 라이브러리</h4>
+            <p class="name">영미소설, 매트 헤이그</p>
+            <p>“후회하는 일을 되돌릴 기회가 생긴다면 다른 선택을 <br>
+                해보겠니? 23시 22분. 죽기에 딱 좋은 시간. <br>
+               초록의 책들이 가득한 자정의 도서관에서 가장 완벽한<br>
+               삶을 찾는 여정이 시작된다! 밤 12시, 죽기 바로 전에만 <br>
+               열리는 마법의 도서관에서 인생의 두 번째 기회를 드립니다.</p>
+                <a href="https://book.naver.com/bookdb/book_detail.nhn?bid=19007535" class="link_btn">책정보 보기</a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="solid"></div>
+        <img src="./book3.jpg" alt="달러구트 꿈 백화점" class="image">
+        <div class="solid"></div>
+        <div class="info">
+            <h4>달러구트 꿈 백화점</h4>
+            <p class="name">SF/판타지, 이미예</p>
+            <p>《달러구트 꿈 백화점》은 ‘무의식에서만 존재하는 꿈을 정말 사고 팔 수 있을까?잠들어야만 입장 가능한 꿈 백화점에서 일어나는 
+                비밀스럽고도 기묘하며 가슴 뭉클한 판타지 소설 
+                잠들어야만 입장할 수 있는 독특한 마을. 온갖 꿈을 한데 
+                모아 판매하는 ‘달러구트의 꿈 백화점’이다.</p>
+                <a href="https://book.naver.com/bookdb/book_detail.nhn?bid=16405427" class="link_btn">책정보 보기</a>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
